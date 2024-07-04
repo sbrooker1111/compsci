@@ -6,8 +6,10 @@ import java.util.Scanner;
 public class TaxTip {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         System.out.print("Enter the meal price\n");
         double mealprice = scanner.nextDouble();
+
         double tax=0.13*mealprice;
         double tip=(mealprice)*0.18;
         double totalbill=tip+tax+mealprice;
