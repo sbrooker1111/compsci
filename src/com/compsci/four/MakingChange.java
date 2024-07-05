@@ -11,27 +11,34 @@ coins as possible. Assume that the machine is loaded with pennies, nickels, dime
  */
 
 package com.compsci.four;
+
 import java.util.Scanner;
+
 public class MakingChange {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the mount of cash\n");
-        double Cash = scanner.nextDouble();
-
-        Int pennies = 1;
-        Int nickels = 5;
-        Int dimes = 10;
-        Int quarters = 25;
-        Int loonies = 100;
-        Int toonies = 200;
-        Int change = pennies + nickels + dimes + quarters + loonies + toonies;
+        double payment = scanner.nextDouble();
 
 
-        System.out.printf("Subtotal:\t %.2f\n",Cash);
-        System.out.printf("Tax:\t\t %.2f\n",change);
 
-        System.out.printf("Tip:\t\t %.2f\n");
-        System.out.printf("Total Bill:\t %.2f");
+        int pennies = 1;
+        int nickels = 5;
+        int dimes = 10;
+        int quarters = 25;
+        int loonies = 100;
+        int toonies = 200;
+
+
+        int change = pennies + nickels + dimes + quarters + loonies + toonies;
+
+
+        System.out.printf("Subtotal:\t %\n", cash);
+        System.out.printf("Tax:\t\t %\n", change);
+
+        
+//        System.out.printf("Tip:\t\t %\n");
+//        System.out.printf("Total Bill:\t %");
     }
 }
