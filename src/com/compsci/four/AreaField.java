@@ -16,10 +16,10 @@ public class AreaField {
         System.out.print("To calculate the Area of a Field in Acres\n");  // output
 
         System.out.print("What is the width of the field, in feet: \n");
-        double  width =   scanner.nextDouble();
+        double  width = scanner.nextDouble();
 
         System.out.print("What is the length of the field in feet: \n");
-        double length =  scanner.nextDouble();
+        double length = scanner.nextDouble();
 
         double squareFeet;
         squareFeet = width * length;

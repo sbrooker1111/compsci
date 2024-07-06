@@ -11,17 +11,16 @@ coins as possible. Assume that the machine is loaded with pennies, nickels, dime
  */
 
 package com.compsci.four;
-
+import java.lang.reflect.Array;
 import java.util.Scanner;
-
 public class MakingChange {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Enter the mount of cash\n");
         double payment = scanner.nextDouble();
-
-
+// converting payment from decimal (dollars) to int (cents)
+        paymentInt = (int) payment;
 
         int pennies = 1;
         int nickels = 5;
@@ -29,16 +28,15 @@ public class MakingChange {
         int quarters = 25;
         int loonies = 100;
         int toonies = 200;
+        int coin = 0;
+// Should solve using a hash or linkedHash but due to time, I used this way.
+        int change = paymentInt;
+
+//        for i = 0 ; i
+//            coin = change /
+//                   change =
+//        }
 
 
-        int change = pennies + nickels + dimes + quarters + loonies + toonies;
-
-
-        System.out.printf("Subtotal:\t %\n", cash);
-        System.out.printf("Tax:\t\t %\n", change);
-
-        
-//        System.out.printf("Tip:\t\t %\n");
-//        System.out.printf("Total Bill:\t %");
     }
 }
