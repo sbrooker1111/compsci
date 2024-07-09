@@ -29,22 +29,22 @@ public class NurseryRhyme {
         printlnLyrics6();
     }
 
-    public static void printlnLyrics1() {
+    private static void printlnLyrics1() {
         System.out.println("The itsy bitsy spider want up the water spout.");
     }
-    public static void printlnLyrics2 () {
+    private static void printlnLyrics2() {
         System.out.println("Down came the rain and washed the spider out.");
     }
-    public static void printlnLyrics3 () {
+    private static void printlnLyrics3 () {
         System.out.println("Out came the sun and dried up all the rain.");
     }
-    public static void printlnLyrics4() {
+    private static void printlnLyrics4() {
         System.out.println("Then the itsy bitsy spider went up the spout again.\n");
     }
-    public static void printlnLyrics5() {
+    private static void printlnLyrics5() {
         System.out.println("The big, big spider went up the water spout.");
     }
-    public static void printlnLyrics6() {
+    private static void printlnLyrics6() {
         System.out.println("Then the big, big spider went up the spout again.");
     }
 }
