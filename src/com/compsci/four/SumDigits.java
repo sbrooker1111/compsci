@@ -8,9 +8,10 @@ of the digits in the number. For example, if the user enters 3141 then your prog
 
 package com.compsci.four;
 import java.util.Scanner;
-public class SUmDigits {
+public class SumDigits {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
 
     }
+}
