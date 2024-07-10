@@ -7,6 +7,10 @@ a separate line using a loop.
  */
 
 package com.compsci.four;
+import java.util.Scanner;
+public class RangeNummbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-public class RangeNumbers {
-}
+
+    }

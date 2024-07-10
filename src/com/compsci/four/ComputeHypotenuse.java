@@ -10,6 +10,10 @@ and displays the result.
 
 
 package com.compsci.four;
-
+import java.util.Scanner;
 public class ComputeHypotenuse {
-}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+    }

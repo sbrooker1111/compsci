@@ -10,6 +10,10 @@ message indicating that the letter is a consonant.
 
 
 package com.compsci.four;
-
+import java.util.Scanner;
 public class VowelConsonant {
-}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+    }

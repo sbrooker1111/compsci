@@ -8,6 +8,10 @@ results with every run since the numbers are (pseudo) randomly generated.
  */
 
 package com.compsci.four;
-
+import java.util.Scanner;
 public class DiceRoll {
-}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+    }
