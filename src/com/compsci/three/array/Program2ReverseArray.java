@@ -3,7 +3,7 @@ Write a Java program that reverses the elements of an array. For example, if the
 the output should be {5, 4, 3, 2, 1}.
  */
 
-package com.compsci.three;
+package com.compsci.three.array;
 
 public class Program2ReverseArray {
     public static void main(String[] args) {
@@ -11,7 +11,6 @@ public class Program2ReverseArray {
         for (int i = (numbers.length - 1); i > -1  ;  i--) {
             System.out.println(numbers[i]);
         }
-
     }
 }
 
