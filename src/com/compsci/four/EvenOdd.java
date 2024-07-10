@@ -6,6 +6,10 @@ message indicating whether the integer is even or odd.
  */
 
 package com.compsci.four;
-
+import java.util.Scanner;
 public class EvenOdd {
-}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+    }

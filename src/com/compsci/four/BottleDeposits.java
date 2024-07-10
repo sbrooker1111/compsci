@@ -13,6 +13,10 @@ decimal places.
 
 
 package com.compsci.four;
-
+import java.util.Scanner;
 public class BottleDeposits {
-}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+    }

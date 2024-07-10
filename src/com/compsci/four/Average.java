@@ -9,6 +9,10 @@ Hint: because 0 marks the end of the input it should not be included in the aver
  */
 
 package com.compsci.four;
-
+import java.util.Scanner;
 public class Average {
-}
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+
+    }
