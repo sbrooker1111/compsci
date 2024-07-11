@@ -6,24 +6,51 @@ The method should return the index of the integer if found, or -1 if the integer
  */
 
 
-//package com.compsci.three.algorithms;
+package com.compsci.three.algorithms;
+
+public class BinaryQuestion {
+
+    public static void main(String[] args) {
+
+        int[] oreo = new int[100];
+        int target = 42;
+
+        // fill array with data
+        for (int i = 0; i < oreo.length; i++) {
+            oreo[i] = i;
+        }
+
+        // int index = Array.binarySearch(array, target);
+        int index = binarySearch2(oreo, target);
+
+        if (index == -1) {
+            System.out.println(target + " not found");
+        }
+        else {
+            System.out.println("Element found at: " + index);
+        }
+
+    }
+
+    private static int binarySearch2(int[] oreo, int target) {
 //
-//public class BinaryQuestion {
-//    int array[] = new int[100];
-//    int target = 42;
-//
-//    for (int i = 0; i < array.length; i++){
-//        array[i] = i;
-//    }
-//    int index = binarySearch (array, target);
-//
-//    if(index == -1 ){
-//        System.out.println(targe+ "not found");
-//    }
-//    else {
-//        System.out.println("Elemant found at: " + index);
-//    }
-//}
-//private static int binarySearch(int[] array, int target){
-//    return 0;
-//}
+         int low = 0;
+         int high = oreo.length - 1;
+
+         while (low <= high) {
+             int mid = (low + high) / 2;
+             int value = oreo[mid];
+
+             System.out.println("middle: " + value);
+
+             if(value < target){
+                 low = mid + 1;
+             }
+             else if(value > target) high = mid - 1;
+             else return mid; // target found
+         }
+    return -1;
+    }
+}
+
+
