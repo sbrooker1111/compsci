@@ -7,11 +7,10 @@ public class Bunnies {
     public static Integer age;
     public static String breed;
 
-    public static void main(String[] args) {
-        adopt();
-    }
+//    public static void main(String[] args) {
+//    }
 
-    private static void adopt() {
+    public static void adopt() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your bunny's name: ");
         name = sc.nextLine();
@@ -22,10 +21,11 @@ public class Bunnies {
     }
 
     public static void flop() {
-        System.out.printf("%s flops", name);
+        System.out.printf("%s flops %n", name);
     }
 
     public static void hop(int moves) {
-        System.out.printf("%s moves %i spaces", name, moves);
+        System.out.printf("%s moves %d spaces %n%n", name, moves);
     }
 }
+
