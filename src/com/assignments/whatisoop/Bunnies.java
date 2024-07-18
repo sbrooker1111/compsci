@@ -1,4 +1,4 @@
-package com.compsci.Module4;
+package com.assignments.whatisoop;
 
 import java.util.Scanner;
 

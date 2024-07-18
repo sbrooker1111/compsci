@@ -10,7 +10,7 @@
  */
 
 
-package com.compsci.four;
+package com.compsci.exercises;
 
 import java.util.Scanner;
 public class SpeedCalcuator {

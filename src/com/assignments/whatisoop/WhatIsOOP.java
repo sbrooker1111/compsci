@@ -1,7 +1,6 @@
-package com.compsci.Module4;
+package com.assignments.whatisoop;
 
 import java.util.Scanner;
-import com.compsci.Module4.Bunnies;
 
 public class WhatIsOOP {
     public static void main(String[] args) {

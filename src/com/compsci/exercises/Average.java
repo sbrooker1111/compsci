@@ -8,7 +8,7 @@ by the user is 0.
 Hint: because 0 marks the end of the input it should not be included in the average.
  */
 
-package com.compsci.four;
+package com.compsci.exercises;
 import java.util.Scanner;
 public class Average {
     public static void main(String[] args) {

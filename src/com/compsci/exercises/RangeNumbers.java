@@ -6,7 +6,7 @@ The program should output all the integers between the start and end values on
 a separate line using a loop.
  */
 
-package com.compsci.four;
+package com.compsci.exercises;
 import java.util.Scanner;
 public class RangeNumbers {
     public static void main(String[] args) {

@@ -7,7 +7,7 @@ tell the user what the number rolled for each di was. Your program should return
 results with every run since the numbers are (pseudo) randomly generated.
  */
 
-package com.compsci.four;
+package com.compsci.exercises;
 import java.util.Scanner;
 public class DiceRoll {
     public static void main(String[] args) {
@@ -16,3 +16,6 @@ public class DiceRoll {
 
     }
 }
+
+
+// n % 2

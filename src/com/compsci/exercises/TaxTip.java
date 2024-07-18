@@ -10,7 +10,7 @@ Program #1: Tax and Tip
         Format the output so that all of the values are displayed using two decimal places.
  */
 
-package com.compsci.four;
+package com.compsci.exercises;
 
 import java.util.Scanner;
 public class TaxTip {

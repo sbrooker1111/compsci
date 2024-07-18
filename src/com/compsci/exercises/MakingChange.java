@@ -10,7 +10,7 @@
 // and toonies.
 // */
 //
-//package com.compsci.four;
+//package com.compsci.exercises;
 //import java.lang.reflect.Array;
 //import java.util.Scanner;
 //public class MakingChange {

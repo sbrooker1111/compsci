@@ -9,7 +9,7 @@ and displays the result.
  */
 
 
-package com.compsci.four;
+package com.compsci.exercises;
 import java.util.Scanner;
 public class ComputeHypotenuse {
     public static void main(String[] args) {

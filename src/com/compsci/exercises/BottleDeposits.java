@@ -12,7 +12,7 @@ decimal places.
  */
 
 
-package com.compsci.four;
+package com.compsci.exercises;
 import java.util.Scanner;
 public class BottleDeposits {
     public static void main(String[] args) {

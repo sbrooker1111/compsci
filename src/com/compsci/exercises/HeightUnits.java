@@ -8,7 +8,7 @@ compute and display the equivalent number of centimeters.
 
 Hint: One foot is equal to 12 inches. One inch is equal to 2.54 centimeters.
 */
-package com.compsci.four;
+package com.compsci.exercises;
 import java.util.Scanner;
 public class HeightUnits {
     public static void main(String[] args) {

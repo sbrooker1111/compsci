@@ -14,7 +14,7 @@ places.
  */
 
 
-package com.compsci.four;
+package com.compsci.exercises;
 import java.util.Scanner;
 public class CellPhoneBill {
     public static void main(String[] args) {

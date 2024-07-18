@@ -8,7 +8,7 @@ money deposited into the account from the user. Then your program should compute
 and display the amount in the savings account after 1, 2, and 3 years. Display each
 amount so that it is rounded to two decimal places.
  */
-package com.compsci.four;
+package com.compsci.exercises;
 
 import java.util.Scanner;
 
