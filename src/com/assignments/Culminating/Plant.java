@@ -51,7 +51,7 @@ public class Plant {
     // takes the number of stems added and prints out that many times "plant grows"
     public void grows(int stems) {
         for (int i = 0; i <= stems; i++) {
-            System.out.print(" plant grows ");
+            System.out.print("plant grows\n");
         }
     }
 
